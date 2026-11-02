@@ -98,4 +98,4 @@ Then open your browser at: [http://localhost:8501](http://localhost:8501)
 - `submissions.json` stores all registered idea fingerprints locally
 - Duplicate ideas (same hash) will not be saved again
 - Ideas with similarity ≥ 85% cannot be fingerprinted
-- - A `.gitignore` file is used to prevent sensitive files (like `.env`) from being uploaded to GitHub
+- A `.gitignore` file is used to prevent sensitive files (like `.env`) from being uploaded to GitHub
