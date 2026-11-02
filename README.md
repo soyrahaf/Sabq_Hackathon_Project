@@ -6,12 +6,12 @@ An AI-powered Arabic web application that checks the originality of innovative i
 
 ## System Pipeline
 
-1. **Input** — User types their idea in Arabic
-2. **Embedding + Similarity** — The idea is converted to a vector embedding and compared against stored idea embeddings using cosine similarity
-3. **Top 3 Retrieved** — The three most similar ideas are retrieved from the dataset
-4. **LLM Analysis (Nuha)** — The user's idea + top 3 similar ideas are sent to Nuha, which returns a structured Arabic analysis
-5. **Output** — The app displays similarity score, similar ideas, and detailed analysis
-6. **Digital Fingerprint** *(optional)* — If the user wants to register their idea, a SHA-256 hash + timestamp record is saved locally
+1. **Input** - User types their idea in Arabic
+2. **Embedding + Similarity** - The idea is converted to a vector embedding and compared against stored idea embeddings using cosine similarity
+3. **Top 3 Retrieved** - The three most similar ideas are retrieved from the dataset
+4. **LLM Analysis (Nuha)** - The user's idea + top 3 similar ideas are sent to Nuha, which returns a structured Arabic analysis
+5. **Output** - The app displays similarity score, similar ideas, and detailed analysis
+6. **Digital Fingerprint** *(optional)* - If the user wants to register their idea, a SHA-256 hash + timestamp record is saved locally
 
 ---
 
